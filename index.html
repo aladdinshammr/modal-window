@@ -7,15 +7,28 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     >
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    >
     <title>Modal window</title>
   </head>
 
   <body>
-    <button class="btn">Show Modal</button>
-    <button class="btn">Show Modal</button>
-    <button class="btn">Show Modal</button>
-    <div class="modal"></div>
-    <div class="overlay"></div>
+    <button class="show-modal">Show Modal 1</button>
+    <button class="show-modal">Show Modal 2</button>
+    <button class="show-modal">Show Modal 3</button>
+    <div class="modal hidde">
+      <h1>I am a modal window 😍</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, ad quis voluptatibus iusto dolore, dolorem eum
+        incidunt maiores illum ea rerum aliquam consequatur deleniti molestiae fugit quam vero illo consequuntur?Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Eveniet reprehenderit architecto debitis quasi impedit,
+        libero omnis reiciendis dicta quod rerum, molestiae itaque molestias labore incidunt tempore repudiandae cum
+        ipsam voluptatum.</p>
+      <button class="close-modal">&times;</button>
+    </div>
+    <div class="overlay hidde"></div>
+    <script src="./script.js"></script>
   </body>
 
 </html>
